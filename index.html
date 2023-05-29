@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <a href="#">
+          <div class="logo">
+            <img class="logo_img" src="images/로고.png" alt="" />
+          </div>
+          <span class="txt">
+            <h1>my web-disign</h1>
+            <br />
+            <br />
+            <h3>portfolio collection</h3></span
+          ></a
+        >
+      </header>
+      <div class="content">
+        <section class="sc1">
+          <img src="images/1.jpg" alt="" />
+          <img src="images/2.jpg" alt="" />
+          <img src="images/3.jpg" alt="" />
+        </section>
+        <section class="sc2">
+          <img src="images/4.jpg" alt="" />
+          <img src="images/5.jpg" alt="" />
+          <img src="images/6.jpg" alt="" />
+        </section>
+        <section class="sc3">
+          <img src="images/7.jpg" alt="" />
+          <img src="images/8.jpg" alt="" />
+          <img src="images/9.jpg" alt="" />
+          <img src="images/10.jpg" alt="" />
+        </section>
+      </div>
+      <div class="menu">
+        <a href="#"
+          ><i class="fa-solid fa-bars fa-2xl" style="color: #000000"></i
+        ></a>
+      </div>
+      <footer>
+        <ul>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-youtube" style="color: #ffffff"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-facebook" style="color: #ffffff"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-instagram" style="color: #ffffff"></i>
+            </a>
+          </li>
+        </ul>
+        <!-- javascript -->
+        <script>
+          const navLink = document.querySelector("nav a");
+          navLink.addEventListener("click", function () {
+            navLink.classList.toggle("active");
+          });
+        </script>
+      </footer>
+    </div>
+  </body>
+</html>
